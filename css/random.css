@@ -107,7 +107,13 @@
 --------------------------------------------------------------*/
 
 .about {
-  margin: 100px;
+  margin: 40px;
+}
+
+@media (min-width: 767px) {
+  .about {
+    margin: 100px;
+  }
 }
 
 .about .content h3 {
@@ -144,7 +150,7 @@
   content: " ";
   width: 5px;
   height: 50px;
-  background-color: #fe7400;
+  background-color: #457fbf;
   position: absolute;
   left: 50%;
   margin-top: -25px;
